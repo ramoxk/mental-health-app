@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Check-In</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>How are you feeling today?</h2>
+        <form method="post">
+            <label>
+                <input type="radio" name="mood" value="happy"> Happy
+            </label><br>
+            <label>
+                <input type="radio" name="mood" value="sad"> Sad
+            </label><br>
+            <label>
+                <input type="radio" name="mood" value="anxious"> Anxious
+            </label><br>
+            <label>
+                <input type="radio" name="mood" value="angry"> Angry
+            </label><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

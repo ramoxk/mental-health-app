@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emergency Contacts</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Emergency Contacts</h2>
+        <p>If you are in immediate danger, please contact emergency services.</p>
+        <p>National Suicide Prevention Lifeline: 1-800-273-TALK (8255)</p>
+        <p>Crisis Text Line: Text HOME to 741741</p>
+        <p><a href="{{ url_for('home') }}">Back to Home</a></p>
+    </div>
+</body>
+</html>
